@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+<!--    <link href="https://unpkg.com/tabulator-tables@4.7.2/dist/css/tabulator_midnight.min.css" rel="stylesheet">-->
+    <link href="https://unpkg.com/tabulator-tables@4.7.2/dist/css/tabulator_modern.min.css" rel="stylesheet">
+<!--    <link href="https://unpkg.com/tabulator-tables@4.7.2/dist/css/tabulator.min.css" rel="stylesheet">-->
+    <script type="text/javascript" src="https://unpkg.com/tabulator-tables@4.7.2/dist/js/tabulator.min.js"></script>
+    <link href="https://unpkg.com/tabulator-tables@4.7.2/dist/css/bootstrap/tabulator_bootstrap4.min.css" rel="stylesheet">
+<!--    <link href="https://unpkg.com/tabulator-tables@4.7.2/dist/css/materialize/tabulator_materialize.min.css" rel="stylesheet">-->
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("marathonimage.jpeg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+</style>
+<body>
+<div class="bg">
+
+    <div id="example-table"></div>
+
+    <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog" style="width: auto;">
+    <div class="modal-dialog" style="width: auto;">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Timeline Diagram</h4>
+        </div>
+        <div class="modal-body" align="center">
+<!--          <p>Some text in the modal.</p>-->
+            <img src="" id="imagepreview">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+
+
+
+<script src="moment.js"></script>
+<script src="table.js"></script>
+</body>
+</html>

@@ -59,4 +59,5 @@ for spine in ["left", "top", "right"]:
     ax.spines[spine].set_visible(False)
 
 ax.margins(y=0.1)
+plt.savefig("timeline.png")
 plt.show()
