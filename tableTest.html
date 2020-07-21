@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="https://unpkg.com/tabulator-tables@4.7.2/dist/js/tabulator.min.js"></script>
+    <link href="./myStyle.css" rel="stylesheet">
+<!--    <meta name="viewport" content="width=device-width, initial-scale=1">-->
+<!--    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">-->
+<!--    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>-->
+<!--    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+<!--  <title>Material Design for Bootstrap</title>-->
+  <!-- MDB icon -->
+  <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <!-- Google Fonts Roboto -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- Material Design Bootstrap -->
+  <link rel="stylesheet" href="css/mdb.min.css">
+  <!-- Your custom styles (optional) -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("marathonimage.jpeg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#example-table{
+    background-color:#ff944d;
+    border: 1px solid #333;
+    border-radius: 10px;
+}
+</style>
+<body>
+<div class="bg">
+
+    <div id="example-table"></div>
+
+    <!-- Modal -->
+<!--  <div class="modal fade" id="myModal" role="dialog" style="width: auto;">-->
+<!--    <div class="modal-dialog" style="width: auto;">-->
+
+<!--      &lt;!&ndash; Modal content&ndash;&gt;-->
+<!--      <div class="modal-content">-->
+<!--        <div class="modal-header">-->
+<!--          <button type="button" class="close" data-dismiss="modal">&times;</button>-->
+<!--          <h4 class="modal-title">Timeline Diagram</h4>-->
+<!--        </div>-->
+<!--        <div class="modal-body" align="center">-->
+<!--&lt;!&ndash;          <p>Some text in the modal.</p>&ndash;&gt;-->
+<!--            <img src="" id="imagepreview">-->
+<!--        </div>-->
+<!--        <div class="modal-footer">-->
+<!--          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>-->
+<!--        </div>-->
+<!--      </div>-->
+
+<!--    </div>-->
+<!--  </div>-->
+
+
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+        aria-hidden="true" style="width: auto;">
+       <div class="modal-dialog modal-notify modal-info" role="document" style="width: auto;">
+         <!--Content-->
+         <div class="modal-content">
+           <!--Header-->
+           <div class="modal-header">
+             <p class="heading lead">Modal Info</p>
+
+             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+               <span aria-hidden="true" class="white-text">&times;</span>
+             </button>
+           </div>
+
+           <!--Body-->
+           <div class="modal-body">
+             <div class="text-center">
+               <i class="fas fa-check fa-4x mb-3 animated rotateIn"></i>
+               <img src="" id="imagepreview">
+             </div>
+           </div>
+
+           <!--Footer-->
+           <div class="modal-footer justify-content-center">
+             <a type="button" class="btn btn-primary">Get it now <i class="far fa-gem ml-1 text-white"></i></a>
+             <a type="button" class="btn btn-outline-primary waves-effect" data-dismiss="modal">No, thanks</a>
+           </div>
+         </div>
+         <!--/.Content-->
+       </div>
+    </div>
+ <!-- Central Modal Medium Info-->
+  <!-- End your project here-->
+
+  <!-- jQuery -->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- Your custom scripts (optional) -->
+  <script type="text/javascript"></script>
+
+</div>
+
+
+
+
+<script src="moment.js"></script>
+<script src="table.js"></script>
+</body>
+</html>

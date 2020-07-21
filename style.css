@@ -1,25 +1,25 @@
 /*Theme the Tabulator element*/
 #example-table{
-    background-color:#4287f5;
+    background-color:#ccc;
     border: 1px solid #333;
     border-radius: 10px;
 }
 
 /*Theme the header*/
-#example-table.tabulator-header.tabulator-col {
-    background-color:#4287f5;
-    color:#4287f5;
-    white-space: normal;
+#example-table.tabulator-header {
+    background-color:#333;
+    color:#fff;
 }
 
 /*Allow column header names to wrap lines*/
+#example-table.tabulator-header .tabulator-col,
 #example-table.tabulator-header .tabulator-col-row-handle {
     white-space: normal;
 }
 
 /*Color the table rows*/
 #example-table.tabulator-tableHolder .tabulator-table .tabulator-row{
-    color:#4287f5;
+    color:#fff;
     background-color: #666;
 }
 
